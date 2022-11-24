@@ -639,8 +639,11 @@ address {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-card:hover .portfolio-image-text,
-.portfolio-card:focus .portfolio-image-text {
+.work-card:hover .portfolio-image-text {
+  transform: translateY(0);
+}
+
+.work-card:focus .portfolio-image-text {
   transform: translateY(0);
 }
 
